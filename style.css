@@ -4,8 +4,13 @@
 }
 
 @font-face {
-	font-family: lorem;
+	font-family: lorem2;
 	src: url(MonsterFriendBack.otf);
+}
+
+@font-face {
+	font-family: lorem;
+	src: url(hinted-Wingdings-Regular.ttf);
 }
 
 textarea{
@@ -55,13 +60,13 @@ canvas{
 }
 
 h1{
-	font-family: lorem;
+	font-family: lorem2;
 	color: white;
 	font-size: 50px;
 }
 
 h2{
-	font-family: lorem;
+	font-family: lorem2;
 	color: white;
 	font-size: 30px;
 }
