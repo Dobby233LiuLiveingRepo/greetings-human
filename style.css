@@ -24,6 +24,7 @@ textarea{
 	border-radius: 0px;
 	border: 2px white dashed;
 	resize: none;
+	text-transform: uppercase;
 }
 
 
