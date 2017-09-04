@@ -18,7 +18,7 @@
 
 	<h1 align="center">WD-40</h1>
 	
-	<textarea rows="2" id="input"></textarea>
+	<textarea rows="2" id="input" spellcheck="false" translate="false"></textarea>
 	<p>View:</p>
 	<div id="cc"><canvas id="logo" height="50px"></canvas></div>
 	<img id="res">
@@ -31,7 +31,7 @@
 
 		document.getElementById('input').addEventListener('keyup', function (){
     		tCtx.canvas.width = tCtx.measureText(this.value).width + 30;
-    		tCtx.font = '50px lorem';
+    		tCtx.font = '30px lorem';
     		tCtx.fillStyle = 'white';
     		tCtx.fillText(this.value.toUpperCase(), 25, 50);
     		imageElem.src = tCtx.canvas.toDataURL();
