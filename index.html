@@ -43,8 +43,8 @@ grd.addColorStop(0,"black");
 		document.getElementById('input').addEventListener('keyup', function (){
     		tCtx.canvas.width = 999;
     		tCtx.font = '30px lorem';
-			tCtx.fillStyle = grd;
-tCtx.fillRect(999,999,999,999);
+			//tCtx.fillStyle = grd;
+//tCtx.fillRect(999,999,999,999);
     		tCtx.fillStyle = 'white';
     		tCtx.fillText(this.value.toUpperCase(), 25, 50);
     		imageElem.src = tCtx.canvas.toDataURL();
