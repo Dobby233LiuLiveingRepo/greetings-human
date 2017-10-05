@@ -14,15 +14,15 @@
 }
 
 textarea{
-	width: 70%;
-   display: block;
+	width: 50%;
+   display: none;
    margin-left: auto;
    margin-right: auto;
 	font-family: deter;
 	color: black;
-	font-size: 15px;
+	/*font-size: 15px;*/
 	border-radius: 0px;
-	border: 2px white dashed;
+	border: 50px white dashed;
 	resize: none;
 	text-transform: uppercase;
 }
@@ -57,7 +57,7 @@ a{
 
 canvas{
 	display: none;
-	height: 999px;
+	height: 999999px;
 }
 
 h1{
