@@ -9,7 +9,8 @@
 <head>
 	<title>WD-40</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="description" content="Seem like you can type an English character and translate it from Wingdings.">
+	<meta name="description" content="Seem like you can type an English character and translate it to Wingdings.">
+	<meta name="og:description" content="Seem like you can type an English character and translate it to Wingdings.">
 <meta name="keywords" content="W.D. Gaster,W.D Gaster translator,Undertale wingdings translator,Wingdings Translator">
 
 	
@@ -19,12 +20,13 @@
 	
 
 	<h1 align="center">WD-40</h1>
+	<h3 align="center">Seem like you can type an English character and translate it to Wingdings.</h3>
 	
 	
 	
-	<textarea rows="2" id="input" spellcheck="false" translate="false"></textarea>
-	<p>View:</p>
-	<div id="cc"><canvas id="logo" height="300px"></canvas></div>
+	<textarea rows="1" id="input" spellcheck="false" translate="false"></textarea>
+	
+	<div id="cc"><canvas id="logo" height="999px"></canvas></div>
 	<img id="res">
 	<br><br><br><br><br>
 	
@@ -37,7 +39,7 @@
     		tCtx.canvas.width = 500;
     		tCtx.font = '30px lorem';
     		tCtx.fillStyle = 'white';
-    		tCtx.fillText(this.value.toUpperCase(), 25, 50);
+    		//tCtx.fillText(this.value.toUpperCase(), 25, 50);
     		imageElem.src = tCtx.canvas.toDataURL();
     		//console.log(imageElem.src);
 		}, false);
